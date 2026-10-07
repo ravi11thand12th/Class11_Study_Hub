@@ -1,198 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Class 11 Study Hub</title>
-
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      background: #f4f7fb;
-      color: #222;
-    }
-
-    header {
-      background: linear-gradient(135deg, #2563eb, #7c3aed);
-      color: white;
-      text-align: center;
-      padding: 35px 15px;
-    }
-
-    header h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 16px;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: 30px auto;
-      padding: 0 15px;
-    }
-
-    .welcome {
-      background: white;
-      padding: 25px;
-      border-radius: 15px;
-      margin-bottom: 25px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    }
-
-    .welcome h2 {
-      margin-bottom: 10px;
-      color: #2563eb;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 25px;
-      border-radius: 15px;
-      text-align: center;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-      transition: 0.2s;
-    }
-
-    .card:hover {
-      transform: translateY(-4px);
-    }
-
-    .icon {
-      font-size: 40px;
-      margin-bottom: 12px;
-    }
-
-    .card h3 {
-      margin-bottom: 10px;
-      color: #333;
-    }
-
-    .card p {
-      color: #666;
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 18px;
-      background: #2563eb;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-    }
-
-    .btn:hover {
-      background: #1d4ed8;
-    }
-
-    .notice {
-      margin-top: 25px;
-      background: #fff7ed;
-      border-left: 5px solid #f97316;
-      padding: 18px;
-      border-radius: 8px;
-    }
-
-    footer {
-      margin-top: 40px;
-      background: #111827;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}body{background:#f4f7fb;color:#222}
+    header{background:linear-gradient(135deg,#2563eb,#7c3aed);color:white;text-align:center;padding:35px 15px}
+    header h1{font-size:32px;margin-bottom:10px}.container{max-width:1100px;margin:30px auto;padding:0 15px}
+    .welcome{background:white;padding:25px;border-radius:15px;margin-bottom:25px;box-shadow:0 4px 15px rgba(0,0,0,.08)}
+    .welcome h2{margin-bottom:10px;color:#2563eb}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+    .card{background:white;padding:25px;border-radius:15px;text-align:center;box-shadow:0 4px 15px rgba(0,0,0,.08);transition:.2s}
+    .card:hover{transform:translateY(-4px)}.icon{font-size:40px;margin-bottom:12px}.card h3{margin-bottom:10px}
+    .card p{color:#666;font-size:14px;margin-bottom:18px}.btn{display:inline-block;padding:10px 18px;background:#2563eb;color:white;text-decoration:none;border-radius:8px;font-weight:bold}
+    .btn:hover{background:#1d4ed8}.notice{margin-top:25px;background:#fff7ed;border-left:5px solid #f97316;padding:18px;border-radius:8px}
+    footer{margin-top:40px;background:#111827;color:white;text-align:center;padding:20px}
   </style>
 </head>
-
 <body>
-
-  <header>
-    <h1>📚 Class 11 Study Hub</h1>
-    <p>Notes • Lectures • Formulas • Study Materials</p>
-  </header>
-
-  <div class="container">
-
-    <div class="welcome">
-      <h2>Welcome to My Study Hub 👋</h2>
-      <p>
-        All my Class 11 notes, lecture videos, formulas and important
-        study materials will be available here in one place.
-      </p>
-    </div>
-
-    <div class="grid">
-
-      <div class="card">
-        <div class="icon">📐</div>
-        <h3>Mathematics</h3>
-        <p>Formulas, notes and important questions.</p>
-        <a href="#" class="btn">Open</a>
-      </div>
-
-      <div class="card">
-        <div class="icon">⚗️</div>
-        <h3>Chemistry</h3>
-        <p>Chapter notes, formulas and lectures.</p>
-        <a href="#" class="btn">Open</a>
-      </div>
-
-      <div class="card">
-        <div class="icon">🔬</div>
-        <h3>Physics</h3>
-        <p>Notes, concepts, formulas and lectures.</p>
-        <a href="#" class="btn">Open</a>
-      </div>
-
-      <div class="card">
-        <div class="icon">🧬</div>
-        <h3>Biology</h3>
-        <p>Chapter notes and study materials.</p>
-        <a href="#" class="btn">Open</a>
-      </div>
-
-      <div class="card">
-        <div class="icon">🎥</div>
-        <h3>Lecture Videos</h3>
-        <p>All important lecture videos in one place.</p>
-        <a href="#" class="btn">Watch</a>
-      </div>
-
-      <div class="card">
-        <div class="icon">📝</div>
-        <h3>Important Questions</h3>
-        <p>Exam-oriented questions and answers.</p>
-        <a href="#" class="btn">View</a>
-      </div>
-
-    </div>
-
-    <div class="notice">
-      <strong>📌 Study Tip:</strong>
-      Revise formulas regularly and practice questions every day.
-    </div>
-
-  </div>
-
-  <footer>
-    <p>© 2026 Class 11 Study Hub | Study Smart 🚀</p>
-  </footer>
-
-</body>
-</html>
+<header><h1>📚 Class 11 Study Hub</h1><p>Notes • Lectures • Formulas • Study Materials</p></header>
+<div class="container">
+<div class="welcome"><h2>Welcome to My Study Hub 👋</h2><p>All my Class 11 notes, lecture videos, formulas and important study materials in one place.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">📐</div><h3>Mathematics</h3><p>Formulas, notes and important questions.</p><a href="mathematics.html" class="btn">Open</a></div>
+<div class="card"><div class="icon">⚗️</div><h3>Chemistry</h3><p>Chapter notes, formulas and lectures.</p><a href="chemistry.html" class="btn">Open</a></div>
+<div class="card"><div class="icon">🔬</div><h3>Physics</h3><p>Notes, concepts, formulas and lectures.</p><a href="physics.html" class="btn">Open</a></div>
+<div class="card"><div class="icon">🧬</div><h3>Biology</h3><p>Chapter notes and study materials.</p><a href="biology.html" class="btn">Open</a></div>
+<div class="card"><div class="icon">🎥</div><h3>Lecture Videos</h3><p>All important lecture videos in one place.</p><a href="lectures.html" class="btn">Watch</a></div>
+<div class="card"><div class="icon">📝</div><h3>Important Questions</h3><p>Exam-oriented questions and answers.</p><a href="questions.html" class="btn">View</a></div>
+</div>
+<div class="notice"><strong>📌 Study Tip:</strong> Revise formulas regularly and practice questions every day.</div>
+</div>
+<footer><p>© 2026 Class 11 Study Hub | Study Smart 🚀</p></footer>
+</body></html>
